@@ -1,8 +1,7 @@
 {
-    "presets": [
-        "module:metro-react-native-babel-preset"
-    ],
     "plugins": [
+        "@babel/plugin-transform-parameters",
+        "@babel/plugin-transform-typescript",
         [
             "module-resolver",
             {
@@ -27,5 +26,5 @@
                 "cwd": "babelrc",
             }
         ]
-    ],
+    ]
 }
