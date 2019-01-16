@@ -5,9 +5,9 @@
   "license": "MIT",
   "scripts": {
     "build1": "yarn build-with-preset",
-    "build2": "yarn build-with-transform",
-    "build-with-preset": "babel --compact=false --config-file ./babelrc-only-metro-preset src/*",
-    "build-with-transform": "babel --compact=false --config-file ./babelrc-only-metro-preset src/*",
+    "build2": "yarn build-with-transform-after-ts",
+    "build-with-preset": "babel --compact=false --config-file ./babelrc-only-metro-preset.jsonc src/*",
+    "build-with-transform-after-ts": "babel --compact=false --config-file ./babelrc-with-transform-after-ts.jsonc src/*",
     "test": "source test.bash"
   },
   "devDependencies": {
