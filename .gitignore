@@ -1,2 +1,4 @@
 node_modules/
 yarn-error.log
+output_preset.js
+output_transform_after_ts.js

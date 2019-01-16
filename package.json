@@ -9,8 +9,8 @@
     "build-with-preset": "babel --compact=false --config-file ./babelrc-only-metro-preset.jsonc src/*",
     "build-with-transform-after-ts": "babel --compact=false --config-file ./babelrc-with-transform-after-ts.jsonc src/*",
     "postinstall": "yarn patch-package",
-    "test": "yarn patch-package --reverse && source test.bash",
-    "test-solution": "yarn patch-package && source test.bash"
+    "test": "yarn patch-package --reverse && ./test.sh",
+    "test-solution": "yarn patch-package && ./test.sh"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",

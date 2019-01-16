@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo "********** step 1:  running babel with metro-react-native-babel-preset"
 npx babel --compact=false --config-file ./babelrc-only-metro-preset.jsonc src/* > output_preset.js
 cat output_preset.js
